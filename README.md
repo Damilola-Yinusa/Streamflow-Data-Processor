@@ -16,21 +16,24 @@ This project processes streamflow data from an Excel file, chunks the data into 
 ```bash
 git clone https://github.com/damilola-yinusa/streamflow-data-processor.git
 
+```
+
 Navigate to the project directory:
-
+```bash
 cd streamflow-data-processor
-
+```
 Install the required dependencies:
-
+```bash
 pip install -r requirements.txt
-
+```
 
 Usage
 Place your streamflow data Excel file in the project directory.
 Update the file_path variable in the script to point to your data file.
 Run the script:
-
+```bash
 python streamflow_data_processor.py
+```
 
 File Structure
 streamflow_data_processor.py: The main script to process the data.
